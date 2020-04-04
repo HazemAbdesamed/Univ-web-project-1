@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "TheShire-dwZ6";
+  src: url("font/TheShire-dwZ6.ttf");
+}
+
+header {
+  text-align: center;
+  font-family: "TheShire-dwZ6";
+  font-size: 25px;
+  color: #c88f4a;
+  text-shadow: 4px 4px 6px black;
+}
+header a {
+  text-decoration: none;
+  color: #c88f4a;
+}
+body {
+  background-image: url("image/86097.jpg");
+  background-position: center;
+  text-decoration-style: none;
+}
+nav {
+  float: left;
+  position: sticky;
+  top: 0px;
+  width: 25%;
+  margin: 0px 0px 0px 0px;
+  background-image: url("image/rustic-rough.png");
+  font-family: Arial;
+  font-size: 20px;
+}
+
+nav li {
+	margin-bottom: 0px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  width: 50%;
+  float: left;
+  background-image: url("image/rustic-rough.png");
+  font-family: Arial;
+  font-size: 18px;
+  padding: 15px;
+}
+aside {
+  width: 25%;
+  float: left;
+  background-image: url("image/rustic-rough.png");
+  font-family: Arial;
+  font-size: 18px;
+}
+
+/*    partie footer */
+
+footer {
+  clear: both;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 541;
+  color: white;
+  text-align: center;
+}
+#pd {
+  float: left;
+}
+
+/*  le paragraphe du footer */
+footer :nth-child(2) {
+  float: left;
+}
+#sv {
+  float: left;
+}
+footer a {
+  color: #045827;
+  font-weight: bolder;
+}
